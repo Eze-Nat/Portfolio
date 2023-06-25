@@ -54,7 +54,7 @@ html{
     position: absolute;
     top: 0;
     right: 0;
-    background: url(../imagenes/fondoport1.jpg) no-repeat center center/cover;
+    background: url(../imagenes/fondoport2023.jpg) no-repeat center center/cover;
     height: 900px;
     width: 100%;
     z-index: -1;
@@ -153,28 +153,33 @@ html{
     display: flex;
     flex-direction: column;
     width: 350px;
-    height: 450px;
+    height: auto;
     border: 1px solid black;
     margin: 10px;
     align-items: center;
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to top, rgb(255,45,45) 50%, white 50%);
+    background: linear-gradient(to top, rgb(245, 213, 213) 50%, white 50%);
     background-size: 100% 200%;
     transition: all .8s;
 }
 .box:hover{
     background-position: left bottom;
-    color: white;
+    color: rgb(115, 105, 248);
     border: none;
-    box-shadow: 0 0 20px rgb(255,45,45);
+    box-shadow: 0 0 20px rgb(85, 57, 247);
 }
 .box img{
     width: 80px;
     height: 80px;
     background-color: white;
     padding: 10px;
+}
+
+.conocimientoImg {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
 }
 
 /* contact */
