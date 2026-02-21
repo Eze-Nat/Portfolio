@@ -1,0 +1,40 @@
+.contact {
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  color: var(--text-secondary);
+  margin-bottom: 30px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.contact-links a {
+  background-color: var(--bg-card);
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  color: var(--text-primary);
+}
+
+.contact-links a:hover {
+  background-color: var(--color-primary);
+  color: var(--bg-main);
+}
+
+.footer {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
